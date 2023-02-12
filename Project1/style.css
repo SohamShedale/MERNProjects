@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(assets/Images/fruit.png);
+    background-repeat: no-repeat;
+    background-size: 100% 880px;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    margin: 30px;
+    display: flex;
+}
+nav>div{
+    margin-right: 370px;
+}
+div>ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+ul>li{
+    /* margin-right: 8px; */
+    margin-left: 60px;
+    color: #ffc233;
+}
+.btn{
+    background-color: #ff515f;
+    color: white;
+    padding: 7px;
+    border: none;
+    width: 80px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.para{
+    text-align: center;
+    color: #ffc233;
+    font-weight: 900;
+    font-size:80px;
+}
+.btn2{
+    width: 180px;
+    height: 40px;
+    font-weight: 800;
+    margin-top: 40px;
+}
+.line{
+    /* margin-top: 0; */
+    line-height: 100%;
+}
+.scroll{
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+    position: sticky;
+}
