@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #0f0f10;
+}
+
+header {
+    margin-top: 35px;
+}
+
+nav {
+    display: flex;
+}
+
+.navLeft {
+    width: 45%;
+}
+
+.logo{
+    margin-left: 140px;
+}
+
+.navRight {
+    width: 55%;
+}
+
+.navRight>ul {
+    display: flex;
+
+}
+
+.navRight {
+    display: flex;
+    /* border: solid white 3px; */
+}
+
+.menu {
+    list-style: none;
+    margin-right: 70px;
+}
+
+.shopbtn {
+    background-color: #1c1c1f;
+    width: 110px;
+    border-radius: 5px;
+    box-shadow: -2px -2px grey;
+    margin-bottom: 1px;
+    color: white;
+    border: none;
+}
+
+.mainSection {
+    display: flex;
+    height: 580px;
+}
+
+.mainLeft {
+    width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    position: relative;
+    top: -250px;
+    left:270px;
+}
+
+.mainRight {
+    width: 50%;
+    /* border: 2px solid white; */
+    position: relative;
+    left: 523px;
+    height: 435px;
+    margin-top: 60px;
+}
+
+.mainRight>img{
+    margin-left: 80px;
+}
+
+.heading{
+    font-size:xx-large;
+    font-weight: 900;
+}
+
+.para{
+    line-height: 190%;
+    /* font-weight: 100; */
+    font-size: small;
+}
+.bag,.addbtn>span {
+    background-color: #1c1c1f;
+}
+
+/* p{
+    display: inline;
+} */
+.mainRight>button{
+    background-color: #1c1c1f;
+    width: 300px;
+    padding: 8px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+}
+
+.appLogo{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+.title{
+    margin-top: 110px;
+    margin-bottom: 70px;
+}
+.specs{
+    display: flex;
+}
+.specsLeft{
+    width: 50%;
+}
+.specsLeft>div{
+    float: right;
+}
+.specsLeft>div>span{
+    font-size: small;
+}
+.bluetooth{
+    margin-right: 200px;
+}
+.microphone{
+    margin-right: 170px;
+}
+.battery{
+    margin-right: 270px;
+}
+.charge{
+    margin-right: 217px;
+}
+.specsRight{
+    width: 50%;
+}
+
+.case{
+    display: flex;
+}
+.caseLeft{
+    width: 52%;
+}
+.caseLeft>img{
+    float: right;
+}
+.caseRight{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: 80px;
+}
+.infobtn{
+    background-color: #1c1c1f;
+    width: 150px;
+    padding: 8px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+}
+.info,.infobtn>span{
+    background-color: #1c1c1f;
+}
+.product{
+    margin-top: 150px;
+    background-color: #181a1b;
+    display: flex;
+    height: 300px;
+    width: 900px;
+    border-radius: 10px;
+}
+.productInfo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.productInfo>h3{
+    text-align: justify;
+}
+.productImg{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* float: left; */
+}
+.buybtn{
+    background-color: #0d0d0e;
+    border: none;
+    width: 150px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px;
+}
+.otherProducts{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    row-gap: 50px;
+    justify-content: center;
+}
+.style{
+    background-color: #181a1b;
+    /* display: inline; */
+    width: 150px;
+    height: 170px;
+    border-radius: 10px;
+}
+.headphone{
+    height: 100px;
+    position: relative;
+    top: -37px;
+}
+.headphoneInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    height: 200px;
+    margin-top: 100px;
+}
+.footerLogo{
+    width: 20%;
+    /* border: 2px solid red; */
+}
+.footerLinks{
+    width: 65%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-around;
+}
+.productLinks>li,.supportLinks>li{
+    list-style: none;
+}
+.email>input{
+    background-color: #181a1b;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 250px;
+    padding: 4px;
+}
+.email>button{
+    color: white;
+    background-color: #0f0f10;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    width: 110px;
+    border-radius: 5px;
+    position: relative;
+    top: -33px;
+    left: 130px;
+    padding: 4px;
+}
+.socialIcons{
+    margin-top: 25px;
+}
+.socialIcons>img{
+    margin-right: 20px;
+}
+.upArrow{
+    width: 15%;
+    /* border: 2px solid green; */
+}
+.upArrow>img{
+    float: right;
+    margin-right: 20px;
+}
